@@ -1,0 +1,23 @@
+.container {
+  height: 90vh;
+  margin: 1vw auto;
+  overflow: hidden;
+  width: 98vw;
+
+  &_before {
+    background: url("../images/day.jpg") no-repeat center center fixed;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  &_after {
+    background: url("../images/night.jpg") no-repeat center center fixed;
+    background-size: contain;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    border-right: 5px solid rgba(255, 255, 255, 0.5);
+  }
+}
